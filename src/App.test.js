@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import ErrorMsg from './ErrorMsg';
 
 test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+  render(<ErrorMsg err="This is an error" />);
+  const linkElement = screen.getByText(/This is an error/i);
   expect(linkElement).toBeInTheDocument();
 });

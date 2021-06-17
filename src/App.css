@@ -121,3 +121,14 @@ select {
   font-size: 1rem;
   text-align: right;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: rgb(214 197 197);
+  color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 8px;
+  background: aquamarine;
+}
